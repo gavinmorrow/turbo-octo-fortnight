@@ -1,6 +1,6 @@
 use axum::{routing::get, Router};
 
-const ROOT_PATH: &str = "localhost:7878";
+const ROOT_PATH: &str = "0.0.0.0:7878";
 
 #[tokio::main]
 async fn main() {
